@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "##README" >README.md;
+git add -A;
+git commit -m "task$*";
+git push;
